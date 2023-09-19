@@ -1,0 +1,32 @@
+{
+    "app": "com.tosibox.lock-for-container",
+    "version": "##VERSION##",
+    "revision": "##FLECS_VERSION##",
+    "title": "TOSIBOX Lock for Container",
+    "author": "Tosibox Oy",
+    "image": "flecs.azurecr.io/com.tosibox.lock-for-container",
+    "description": "Secure edge connectivity",
+    "avatar": "",
+    "category": "connectivity",
+    "multiInstance": false,
+    "editor": "18000",
+    "args": [],
+    "capabilities": [
+        "NET_ADMIN"
+    ],
+    "conffiles": [],
+    "devices": [
+        "/dev/net/tun"
+    ],
+    "env": [
+        "LICENSE_KEY="
+    ],
+    "interactive": false,
+    "ports": [
+        "18000:80"
+    ],
+    "startupOptions": [],
+    "volumes": [
+        "tosibox-lfc:/etc/tosibox/docker_volume"
+    ]
+}
