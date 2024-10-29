@@ -5,7 +5,7 @@
     "revision": "##FLECS_VERSION##",
     "image": "flecs.azurecr.io/com.tosibox.lock-for-container",
     "multiInstance": false,
-    "editor": "18000",
+    "editor": ":18000",
     "args": [],
     "capabilities": [
         "NET_ADMIN"
